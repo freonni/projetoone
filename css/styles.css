@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -30,15 +31,25 @@
 }
 
 .header nav ul {
-    display: flex; 
+    display: flex;
+    padding: 20px 0; 
     list-style-type: none; 
 }
 
-.header nav ul li {
+.navbar-link {
     margin-right: 20px;
-    color: #fff;
-} 
+    text-decoration: none;
+    color: white;
+}
 
 .main-section {
     flex: 1;
+}
+
+.main-section-title {
+    font-size: 70px;
+    color: red;
+}
+.main-section-subtitle {
+    font-size: 35px;
 }
